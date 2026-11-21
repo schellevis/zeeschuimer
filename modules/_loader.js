@@ -19,7 +19,9 @@ async function load() {
         await import("./twitter.js"),
         await import("./gab.js"),
         await import("./weibo.js"),
-        await import("./weibo-comments.js")
+        await import("./weibo-comments.js"),
+        await import("./facebook.js"),
+        await import("./facebook-comments.js")
     ];
 
     for(const module of imported_modules) {
